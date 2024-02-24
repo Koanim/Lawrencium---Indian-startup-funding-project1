@@ -1,0 +1,6 @@
+
+SERVER = 'dap-projects-database.database.windows.net'
+DATABASE = 'dapDB'
+USERNAME = 'LP1_learner'
+PASSWORD = 'Hyp0th3s!$T3$t!ng'
+DRIVER = '{ODBC Driver 18 for SQL Server}'
