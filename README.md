@@ -24,3 +24,15 @@
 - Transform and export the data retrieved from the SQL query into a CSV file format for each set of extracted data.
 - Download the CSV file(s) from GitHub to a OneDrive account, facilitating file sharing and storage in the cloud.
 - Add a new column to each dataframe to record the year of funding.
+- We thoroughly clean the data to ensure its accuracy, consistency, and readiness for analysis.
+
+ #### Few observations were made from the data cleaning
+1. Rename 'Company Name' in df_fund2018, 'Company/Brand' in df_fund2019, and 'Company_Brand' in df_fund2020 and df_fund2021 to 'Company_Brand' for consistency.
+2. Add the 'Founded' column to df_fund2018 to align with other dataframes.
+3. Rename 'Industry' in df_fund2018 to 'Sector' to match the terminology used in other dataframes.
+4. Replace 'Headquarter' with 'Location' in all dataframes except df_fund2018, which already uses 'Location'.
+5. Change 'Round/Series' in df_fund2018 to 'stage' to harmonize column names across all dataframes.
+6. Convert 'Amount($)' in df_fund2019 to 'Amount' for uniformity.
+7. Standardize the description column to 'About Company' across all dataframes, removing underscores and aligning naming conventions.
+8. Insert 'Founders' and 'Investors' columns into df_fund2018 to ensure all dataframes contain these fields.
+9. Remove 'Column10' from df_fund2020 due to its null values to clean up the dataset.
