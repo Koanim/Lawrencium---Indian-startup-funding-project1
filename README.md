@@ -36,3 +36,4 @@
 7. Standardize the description column to 'About Company' across all dataframes, removing underscores and aligning naming conventions.
 8. Insert 'Founders' and 'Investors' columns into df_fund2018 to ensure all dataframes contain these fields.
 9. Remove 'Column10' from df_fund2020 due to its null values to clean up the dataset.
+10. Observed that the currency was $; in addition, several businesses only had text and no quantity.
