@@ -15,7 +15,7 @@
 7. Open the .gitignore file and type in the name of the .env file we just created like this "/.env". This will prevent git from tracking that file. Essesntially any file name in the gitignore file will be ignored by git and won't be checked into the repository.
 8. Create a connection by accessing your connection string with your defined environment variables.
 
-#### DATA COLLATION
+### DATA COLLATION
 1. Get data from other sources and concatenate (Depends on the project) to perform your analysis.
 2. Extract and store key-value pairs from the .env file in a structured dictionary format for easy access to configuration settings.
 3. Retrieve specific credential information like database connection parameters (username, password, server address, etc.) from the structured dictionary.
@@ -26,16 +26,16 @@
 8. Download the CSV file(s) from GitHub to a OneDrive account, facilitating file sharing and storage in the cloud.
 9. Add a new column to each dataframe to record the year of funding.
 
-#### DATA CLEANING
+### DATA CLEANING
 We thoroughly clean the data to ensure its accuracy, consistency, and readiness for analysis. Starting from each Year(2018 - 2021)
-  ##### CLEANING YEAR 2018
+  ## CLEANING YEAR 2018
   1. Removed the numerical digits from values, creating a new dataframe column 'cur_symb18'.
   2. Eliminated symbols to establish another column 'Amount_no_symb18'. Proceeded to drop the column containing amounts with symbols.
   3. renaming the columns 'Amount_no_symb18' and 'cur_symb18' accordingly.
   4. To align the location data of the 2018 dataset with the other datasets, which feature only one city per location, we selected the first listed city in the location column and discarded the rest.
   5. We converted amounts in rupees to dollars using the 2018 average exchange rate of 0.0146 USD.  
 
- ##### OBSERVATIONS MADE FROM DATA CLEANING
+ ### OBSERVATIONS MADE FROM DATA CLEANING
 1. Rename 'Company Name' in df_fund2018, 'Company/Brand' in df_fund2019, and 'Company_Brand' in df_fund2020 and df_fund2021 to 'Company_Brand' for consistency.
 2. Add the 'Founded' column to df_fund2018 to align with other dataframes.
 3. Rename 'Industry' in df_fund2018 to 'Sector' to match the terminology used in other dataframes.
