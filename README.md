@@ -26,9 +26,9 @@
 8. Download the CSV file(s) from GitHub to a OneDrive account, facilitating file sharing and storage in the cloud.
 9. Add a new column to each dataframe to record the year of funding.
 
-##### DATA CLEANING
+#### DATA CLEANING
 We thoroughly clean the data to ensure its accuracy, consistency, and readiness for analysis. Starting from each Year(2018 - 2021)
-  # CLEANING YEAR 2018
+  ##### CLEANING YEAR 2018
   1. Removed the numerical digits from values, creating a new dataframe column 'cur_symb18'.
   2. Eliminated symbols to establish another column 'Amount_no_symb18'. Proceeded to drop the column containing amounts with symbols.
   3. renaming the columns 'Amount_no_symb18' and 'cur_symb18' accordingly.
