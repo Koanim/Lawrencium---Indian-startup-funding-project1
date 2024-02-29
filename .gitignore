@@ -1,5 +1,10 @@
 # ignore secrets, virtual environments and typical python compilation artifacts
 #secrets.toml
 # ignore basic python artifacts
+<<<<<<< HEAD
 /`.env`
 /.ipynb_checkpointspip listpip
+=======
+/.env
+/.venv
+>>>>>>> 6a849968aa8c051ba70bf84810333b3b80fd2682
