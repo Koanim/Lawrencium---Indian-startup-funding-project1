@@ -2,4 +2,4 @@
 #secrets.toml
 # ignore basic python artifacts
 /`.env`
-/.ipynb_checkpoints
+/.ipynb_checkpointspip listpip
