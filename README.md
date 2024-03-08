@@ -1,4 +1,4 @@
-# Lawrencium---Indian-startup-funding-project1
+# Lawrencium---Indian-startup-funding-project
 ## Accessing the data from the database
 1. Please follow the steps in this notebook to have access to the dataset. 
 
